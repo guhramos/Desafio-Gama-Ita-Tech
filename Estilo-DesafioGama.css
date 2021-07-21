@@ -1,0 +1,374 @@
+/* Menu */
+
+.Menu {
+    background-color: #00b3b3;
+    padding: 0.5px 0;
+
+}
+
+.menu-container{
+
+    max-width: 960px;
+    margin: 0 auto;
+    
+
+}
+
+.menu-container::after, .menu-container::before {
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a.menu-logo {
+
+    display: block;
+    float:left;
+    margin-right: 10px; 
+    width: 5%;
+}
+
+.menu-nav{
+
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-nav li {
+
+    display: inline-block;
+}
+
+.menu-nav a {
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+}
+
+/*Introdução*/
+
+.Intro {
+
+    background: url(../Downloads/Mascara.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+    
+
+}
+
+.Intro h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    
+}
+ 
+.Intro h1 ::after {
+
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    margin: 10px auto;
+    background: cornsilk;
+} 
+
+/*Home*/
+
+.Home{
+    padding: 60px;
+
+}
+
+.sobre-container {
+    max-width: 960px;
+    margin: 0 auto
+}
+
+.sobre-container::after, .sobre-container::before {
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.Home h2 {
+
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre-item {
+
+    width: 300px;
+    float: left;
+    margin: 0 10px;
+
+}
+
+.sobre-item img{
+
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item h3 {
+    font-size: 1.125em;
+	line-height: 1.4em;
+	font-style: italic;
+	text-align: center;
+	margin: 20px auto;
+	max-width: 460px;
+}
+
+/*Sobre*/
+
+.Sobre {
+
+    background:  #ccffff;
+    padding: 60px 0;
+    border-top: 3px solid #99ffff ;
+    border-bottom: 3px solid #99ffff;
+
+} 
+
+.Sobre h2 {
+
+    font-size: 40px;
+}
+
+.autores-container {
+
+    max-width: 960px;
+    margin: 0 auto
+}
+
+.autores-container::before, .autores-container::after {
+
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.autores {
+
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+
+}
+
+.autores h3 {
+
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.autores h3::before {
+
+    content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: currentColor;
+	border-radius: 50%;
+	margin: 20px auto;
+	border: 5px solid #ccffff; ;
+	box-shadow: 0 0 0 5px currentColor;
+
+
+}
+
+.autores p{
+
+    font-size: 0.875em;
+	line-height: 1.4em;
+}
+
+.autores img {
+
+    
+	float: right;
+	margin: 0 10px;
+	display:block;
+    width: 80%;
+}
+
+.lkd img {
+ width: 100px;
+ display: block;
+ float: right;
+ 
+}
+
+/*Videos*/
+
+.Videos{
+
+    max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.Videos-item {
+
+    clear: both;
+	margin: 60px auto;
+}
+
+.Videos-item::after, .Videos-item::before {
+
+    display: table;
+	content: '';
+	clear: both;
+}
+
+.Videos-item iframe {
+
+    width: 460px;
+	display: block;
+	float: left;
+	margin: 0 10px;
+}
+
+.Videos-item > div {
+
+    width: 460px;
+	float: left;
+	margin: 0 10px;
+}
+
+.Videos-item h3 {
+
+    font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+
+/*Contato*/
+
+.Contato {
+
+    background: #99ffff;
+	padding: 30px 0;
+}
+
+
+.contato-container {
+
+    max-width: 960px;
+	margin: 0 auto;
+}
+
+.contato-container::after, .contato-container::before{
+
+    content: '';
+	display: table;
+	clear: both;
+}
+
+.Contato-info {
+
+    width: 460px;
+	margin: 0 10px;
+	float: left;
+}
+
+.Contato-info h2 {
+
+    font-size: 2.25em;
+}
+
+.Contato-info p {
+
+    font-size: 1.5em;
+	font-style: italic;
+}
+
+.Contato form {
+
+    width: 460px;
+	margin: 10px 10px 0 10px;
+	float: left;
+}
+
+.Contato form label {
+
+    display: flex; 
+}
+
+.Contato input
+{
+
+    width: 320px;
+    border: 3px solid black;
+    background: none;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+    float: inline-start;
+}
+
+.Contato button {
+
+    background: #252525;
+	border: none;
+	font-family: Georgia, serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	width: 100px;
+	padding: 13px 0;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*Referências*/
+
+/*Footer*/
+
+.footer {
+
+    background: #00b3b3;
+	padding: 5px 0;
+}
+
+.footer-container {
+
+    max-width: 900px;
+	margin: 0 auto;
+}
+
+.footer-container::before, .footer-container::after {
+
+    content: '';
+	display: table;
+	clear: both;
+
+}
+
+.footer p {
+	float: left;
+	margin: 0 10px;
+	font-size: 1.125em;
+	line-height: 1.4em;
+}
+
+.footer img { 
+	
+	float: right;
+	margin: 0 10px;
+	display: block;
+    width: 25%;
+}
+
+
+
+
+
